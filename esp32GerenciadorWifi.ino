@@ -2,8 +2,8 @@
 #include <PubSubClient.h>
 #include <EEPROM.h>
 #define EEPROM_SIZE 255   
-const char* ssidAP = "PlantaeFarm"; // Nome da rede wifi que o esp vai criar
-const char* passwordAP = "12345678"; // senha da rede wifi que o esp vai criar
+const char* ssidAP = "name"; // Nome da rede wifi que o esp vai criar
+const char* passwordAP = "pass"; // senha da rede wifi que o esp vai criar
 const unsigned short int addressWifi = 0; // endereço da memoria
 const unsigned short int addressWifiPassword = 30;// endereço da memoria
 const unsigned short int addressMqttServe = 50;// endereço da memoria
